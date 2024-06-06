@@ -1,0 +1,27 @@
+.Testing {
+    background-color:pink;
+    width: 40cm;
+    height: 40cm;
+    border-radius:  50%;
+    border: 1cm 1cm 1cm 1cm;
+    position: absolute;
+    top:-20cm;
+    left:-20cm;
+    z-index:-1;
+}
+
+
+.Testing2 {
+    background-color:pink;
+    width: 20cm;
+    height: 20cm;
+    border-top-left-radius:  100%;
+    border-top-right-radius:0;
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:0;
+    border: 1cm 1cm 1cm 1cm;
+    position: absolute;
+    bottom:0cm;
+    right:0cm;
+    z-index:-1;
+}

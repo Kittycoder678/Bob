@@ -1,12 +1,15 @@
 .Testing {
     background-color:pink;
-    width: 40cm;
-    height: 40cm;
-    border-radius:  50%;
+    width: 20cm;
+    height: 20cm;
+    border-top-left-radius:0%;
+    border-top-right-radius:0%;
+    border-bottom-left-radius:0%;
+    border-bottom-right-radius:100%;
     border: 1cm 1cm 1cm 1cm;
     position: absolute;
-    top:-20cm;
-    left:-20cm;
+    top:2.5cm;
+    left:0cm;
     z-index:-1;
 }
 
@@ -24,4 +27,18 @@
     bottom:0cm;
     right:0cm;
     z-index:-1;
+}
+
+.card{
+    background-color: rgb(0, 0, 140);
+}
+
+.card-text{
+    text-align: center;
+    color: whitesmoke;
+}
+
+body {
+    margin-left: 0;
+    margin-right: 0;
 }

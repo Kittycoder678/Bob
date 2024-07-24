@@ -1,5 +1,5 @@
 .Testing {
-    background-color:pink;
+    background-color: #5B8C87;
     width: 25%;
     height: 45%;
     border-top-left-radius:0%;
@@ -8,14 +8,14 @@
     border-bottom-right-radius:100%;
     border: 1cm 1cm 1cm 1cm;
     position: absolute;
-    top:2.5cm;
+    top:2.8cm;
     left:0cm;
     z-index:-1;
 }
 
 
 .Testing2 {
-    background-color:rgb(255, 192, 203);
+    background-color: #5B8C87;
     width: 25%;
     height: 45%;
     border-top-left-radius:  100%;
@@ -33,21 +33,32 @@
 
 .card-text{
     text-align: center;
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
 }
 
 body {
     margin-left: 0;
     margin-right: 0;
+    background-color: #83A0BB;
+}
+
+h1 {
+    font-family: "margot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:4em;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .Testing3 {
-    background-color:rgb(255, 0, 191);
+    background-color: #ACD5D0;
     width: 100cm;
     height: 0.75cm;
     border: 1cm 1cm 1cm 1cm;
     position: absolute;
-    top:2.10cm;
+    top:2.8cm;
     right:0cm;
     z-index:-1;
 }

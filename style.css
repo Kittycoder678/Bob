@@ -16,8 +16,8 @@
 
 .Testing2 {
     background-color:rgb(255, 192, 203);
-    width: 10cm;
-    height: 10cm;
+    width: 25%;
+    height: 45%;
     border-top-left-radius:  100%;
     border-top-right-radius:0;
     border-bottom-left-radius:0;
@@ -29,9 +29,7 @@
     z-index:-1;
 }
 
-.card{
-    background-color: rgba(0, 0, 158, 0.562);
-}
+
 
 .card-text{
     text-align: center;
@@ -44,7 +42,7 @@ body {
 }
 
 .Testing3 {
-    background-color:rgb(225, 164, 253);
+    background-color:rgb(255, 0, 191);
     width: 100cm;
     height: 0.75cm;
     border: 1cm 1cm 1cm 1cm;

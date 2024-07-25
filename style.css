@@ -8,7 +8,7 @@
     border-bottom-right-radius:100%;
     border: 1cm 1cm 1cm 1cm;
     position: absolute;
-    top:2.8cm;
+    top:3cm;
     left:0cm;
     z-index:-1;
 }
@@ -48,8 +48,8 @@ h1 {
     font-style: normal;
     font-size:400%;
     text-align:center;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 0.5cm;
+
 }
 
 .Testing3 {
@@ -58,7 +58,52 @@ h1 {
     height: 0.75cm;
     border: 1cm 1cm 1cm 1cm;
     position: absolute;
-    top:2.8cm;
+    top:3cm;
     right:0cm;
     z-index:-1;
 }
+@media only screen and (max-width: 1195px) {
+    body{
+        font-family: "margot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:85%;
+    text-align:center;
+    margin-top: 0.5cm;
+    background-color: pink;
+    }
+}
+@media only screen and (max-width: 995px) {
+    body{
+        font-family: "margot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:75%;
+    text-align:center;
+    margin-top: 0.5cm;
+    background-color: white;
+    }
+}
+@media only screen and (max-width: 810px) {
+    body{
+        font-family: "margot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:50%;
+    text-align:center;
+    margin-top: 0.5cm;
+    background-color: peachpuff;
+    }
+}
+@media only screen and (max-width: 685px) {
+    body{
+        font-family: "margot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:50%;
+    text-align:center;
+    margin-top: 0.5cm;
+    background-color: lightpink;
+    }
+}
+

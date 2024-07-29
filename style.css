@@ -1,4 +1,4 @@
-.Testing {
+.Circle1 {
     background-color: #5B8C87;
     width: 25%;
     height: 45%;
@@ -14,7 +14,7 @@
 }
 
 
-.Testing2 {
+.Circle2 {
     background-color: #5B8C87;
     width: 25%;
     height: 45%;
@@ -29,11 +29,29 @@
     z-index:-1;
 }
 
-
-
-.card-text{
-
+.Title-text1{
     color: rgb(0, 0, 0);
+    font-family: "quiroh", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:600%;
+    margin-left: 50%;
+}
+
+.Title-text2{
+    color: rgb(0, 0, 0);
+    font-family: "quiroh", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:600%;
+    margin-left: 40%;
+    top: 26cm;
+}
+hr{
+    height: 5px;
+    background-color: black;
+    border-color: black;
+    text-shadow: none;
 }
 
 body {
@@ -52,7 +70,7 @@ h1 {
 
 }
 
-.Testing3 {
+.Rectangle1 {
     background-color: #ACD5D0;
     width: 100cm;
     height: 0.75cm;
@@ -62,48 +80,29 @@ h1 {
     right:0cm;
     z-index:-1;
 }
+
 @media only screen and (max-width: 1195px) {
     body{
-        font-family: "margot", sans-serif;
-    font-weight: 400;
-    font-style: normal;
     font-size:85%;
-    text-align:center;
     margin-top: 0.5cm;
-    background-color: pink;
     }
 }
-@media only screen and (max-width: 995px) {
+@media only screen and (max-width: 1015px) {
     body{
-        font-family: "margot", sans-serif;
-    font-weight: 400;
-    font-style: normal;
     font-size:75%;
-    text-align:center;
     margin-top: 0.5cm;
-    background-color: white;
     }
 }
-@media only screen and (max-width: 810px) {
-    body{
-        font-family: "margot", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size:50%;
-    text-align:center;
+@media only screen and (max-width: 915px) {
+    body{    
+    font-size:65%;
     margin-top: 0.5cm;
-    background-color: peachpuff;
     }
 }
 @media only screen and (max-width: 685px) {
     body{
-        font-family: "margot", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size:50%;
-    text-align:center;
+    font-size:60%;
     margin-top: 0.5cm;
-    background-color: lightpink;
     }
 }
 

@@ -11,8 +11,9 @@
     top:3cm;
     left:0cm;
     z-index:-1;
+    border: 6.5px solid black;
+    border-left-width:0px;
 }
-
 
 .Circle2 {
     background-color: #5B8C87;
@@ -27,6 +28,9 @@
     bottom:0cm;
     right:0cm;
     z-index:-1;
+    border: 6.5px solid black;
+    border-bottom-width:0px;
+    border-right-width:0px;
 }
 
 .Title-text1{
@@ -48,10 +52,13 @@
     top: 26cm;
 }
 hr{
-    height: 5px;
+    height: 4px;
     background-color: black;
     border-color: black;
     text-shadow: none;
+    margin-top: 5cm;
+    margin-left: 3.75cm;
+    margin-right:3.50cm;
 }
 
 body {
@@ -79,8 +86,12 @@ h1 {
     top:3cm;
     right:0cm;
     z-index:-1;
+    border: 3.25px solid black;
 }
 
+h3 {
+    margin-bottom: 15cm;
+}
 @media only screen and (max-width: 1195px) {
     body{
     font-size:85%;

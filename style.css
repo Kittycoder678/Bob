@@ -56,7 +56,7 @@ hr{
     background-color: black;
     border-color: black;
     text-shadow: none;
-    margin-top: 5cm;
+    margin-top: 3.30cm;
     margin-left: 3.75cm;
     margin-right:3.50cm;
 }
@@ -78,7 +78,7 @@ h1 {
 }
 
 .rectangle1 {
-    background-color: #ACD5D0;
+    background-color: #acd5d0;
     width: 100cm;
     height: 0.75cm;
     border: 1cm 1cm 1cm 1cm;
@@ -90,8 +90,7 @@ h1 {
 }
 
 h3 {
-    margin-bottom: 15cm;
-    z-index: 1;
+    z-index: 8;
 }
 
 @media only screen and (max-width: 1195px) {

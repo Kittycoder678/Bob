@@ -61,6 +61,16 @@ hr{
     margin-right:3.50cm;
 }
 
+.line_2{
+    height: 4px;
+    background-color: black;
+    border-color: black;
+    text-shadow: none;
+    margin-top: 3.30cm;
+    margin-left: 0cm;
+    margin-right:0cm;
+}
+
 body {
     margin-left: 0;
     margin-right: 0;
@@ -87,6 +97,8 @@ h1 {
     right:0cm;
     z-index:-1;
     border: 3.25px solid black;
+    border-left-width:0px;
+    border-right-width:0px;
 }
 
 h3 {

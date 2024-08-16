@@ -51,14 +51,15 @@
     margin-left: 40%;
     top: 26cm;
 }
+
 hr{
     height: 4px;
     background-color: black;
     border-color: black;
     text-shadow: none;
-    margin-top: 3.30cm;
-    margin-left: 3.75cm;
-    margin-right:3.50cm;
+    margin-top: 7.499%;
+    margin-left: 7.499%;
+    margin-right:6.999%;
 }
 
 .line_2{
@@ -66,9 +67,9 @@ hr{
     background-color: black;
     border-color: black;
     text-shadow: none;
-    margin-top: 3.30cm;
-    margin-left: 0cm;
-    margin-right:0cm;
+    margin-top: 6.599%;
+    margin-left: 0%;
+    margin-right:0%;
 }
 
 body {
@@ -83,8 +84,8 @@ h1 {
     font-style: normal;
     font-size:400%;
     text-align:center;
-    margin-top: 0.5cm;
-
+    margin-top: 1%;
+    margin-bottom:1.25%;
 }
 
 .rectangle1 {
@@ -102,7 +103,9 @@ h1 {
 }
 
 h3 {
-    z-index: 8;
+    z-index: 1;
+    top:3cm;
+    margin:0;
 }
 
 @media only screen and (max-width: 1195px) {

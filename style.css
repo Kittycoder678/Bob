@@ -17,15 +17,15 @@
 
 .circle2 {
     background-color: #5B8C87;
-    width: 30%;
-    height: 50%;
+    width: 25%;
+    height: 45%;
     border-top-left-radius:  100%;
     border-top-right-radius:0;
     border-bottom-left-radius:0;
     border-bottom-right-radius:0;
     border: 1cm 1cm 1cm 1cm;
     position: absolute;
-    bottom:-2cm;
+    bottom:0cm;
     right:0cm;
     z-index:-1;
     border: 6.5px solid black;
@@ -53,10 +53,13 @@
 }
 
 hr{
+    position:fixed;
     height: 4px;
     background-color: black;
     border-color: black;
     text-shadow: none;
+    top:40.5%;
+    width:85%;
     margin-top: 7.499%;
     margin-left: 7.499%;
     margin-right:6.999%;
@@ -127,7 +130,17 @@ h3 {
     width: 60%;
 }
 
+.footer {
+    left: 0;
+    bottom: 0;
+    background-color:#ACD5D0;
+    text-align: center;
+    margin-top:8.5%;
+    padding:1%;
+  }
+
 footer {
+    position:fixed;
     background-color:pink;
     padding:2.5%;
     margin-bottom: 0%;

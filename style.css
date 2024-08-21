@@ -40,6 +40,7 @@
     font-style: normal;
     font-size:600%;
     margin-left: 50%;
+    margin-bottom:0%;
 }
 
 .title-text2{
@@ -49,6 +50,7 @@
     font-style: normal;
     font-size:600%;
     margin-left: 40%;
+    margin-top:0%;
     margin-bottom:0%;
 }
 
@@ -57,11 +59,8 @@ hr{
     background-color: black;
     border-color: black;
     text-shadow: none;
-    top:40.5%;
+    top:65%;
     width:85%;
-    margin-top: 7.499%;
-    margin-left: 7.499%;
-    margin-right:6.999%;
 }
 
 .line_2{

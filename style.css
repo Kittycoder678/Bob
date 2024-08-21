@@ -17,15 +17,15 @@
 
 .circle2 {
     background-color: #5B8C87;
-    width: 25%;
-    height: 45%;
+    width: 30%;
+    height: 50%;
     border-top-left-radius:  100%;
     border-top-right-radius:0;
     border-bottom-left-radius:0;
     border-bottom-right-radius:0;
     border: 1cm 1cm 1cm 1cm;
     position: absolute;
-    bottom:0cm;
+    bottom:-2cm;
     right:0cm;
     z-index:-1;
     border: 6.5px solid black;
@@ -49,7 +49,7 @@
     font-style: normal;
     font-size:600%;
     margin-left: 40%;
-    top: 26cm;
+    margin-bottom:0%;
 }
 
 hr{
@@ -76,6 +76,7 @@ body {
     margin-left: 0;
     margin-right: 0;
     background-color: #83A0BB;
+    margin-bottom: 0%;
 }
 
 h1 {
@@ -102,10 +103,34 @@ h1 {
     border-right-width:0px;
 }
 
+.rectangle2 {
+    background-color:  #acd5d0a2;
+    width: 25cm;
+    height: 0.75cm;
+    border: 1cm 1cm 1cm 1cm;
+    position: absolute;
+    top:8cm;
+    right:15%;
+    z-index:-1;
+    border: 3.25px solid black;
+    border-left-width:0px;
+    border-right-width:0px;
+}
+
 h3 {
     z-index: 1;
     top:3cm;
     margin:0;
+}
+
+.left-header-div {
+    width: 60%;
+}
+
+footer {
+    background-color:pink;
+    padding:2.5%;
+    margin-bottom: 0%;
 }
 
 @media only screen and (max-width: 1195px) {

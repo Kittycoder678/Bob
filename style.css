@@ -39,7 +39,9 @@
     font-weight: 600;
     font-style: normal;
     font-size:500%;
+    margin-bottom: 0%;
     margin-left: 45%;
+    margin-top:0%;
 }
 
 .title-text2{
@@ -50,6 +52,11 @@
     font-size:500%;
     margin-left: 40%;
     top:50%;
+    margin-bottom:0%;
+}
+
+.body-text1{
+    margin-left:30%
 }
 
 .line_2{
@@ -118,6 +125,7 @@ hr{
 
 h3 {
     z-index: 1;
+    top:3cm;
     top:5cm;
     margin:0;
     text-align:center;
@@ -133,7 +141,6 @@ h3 {
     font-variation-settings:
       "wdth" 100;
   }
-  
 
 .left-header-div {
     width: 60%;
@@ -149,11 +156,22 @@ h3 {
   }
 
 footer {
+    position:absolute;
     left: 0cm;
-    bottom: 0cm;
+    bottom: -2.5cm;
     text-align: center;
     background-color:#ACD5D0;
-    margin-top:8.5%;
+    width:100%;
+}
+
+@media only screen and (max-width: 1900px) {
+    h3{
+    font-size:100%;
+    margin-top: 0.5cm;
+    }
+    .footer{
+    margin-top:2%;
+    }
 }
 
 @media only screen and (max-width: 1195px) {
@@ -183,4 +201,3 @@ footer {
     margin-top: 0.5cm;
     }
 }
-

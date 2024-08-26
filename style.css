@@ -44,19 +44,28 @@
     margin-top:0%;
 }
 
-.title-text2{
+.title-text2{    
+    position:absolute;
     color: rgb(0, 0, 0);
     font-family: "quiroh", sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size:500%;
-    margin-left: 40%;
-    top:50%;
+    margin-left:32.5%;
     margin-bottom:0%;
+    top:52.5%;
 }
 
 .body-text1{
-    margin-left:30%
+    position:absolute;
+    margin-left:42.5%;
+    top:35%;
+}
+
+.body-text2{
+    position:absolute;
+    margin-left:15%;
+    top:75%;
 }
 
 .line_2{
@@ -152,13 +161,13 @@ h3 {
     margin-left:0%;
     margin-right:0%;
     margin-bottom:0%;
-    padding:1%;
+    padding:0.5%;
   }
 
 footer {
     position:absolute;
     left: 0cm;
-    bottom: -2.5cm;
+    bottom: -2cm;
     text-align: center;
     background-color:#ACD5D0;
     width:100%;

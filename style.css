@@ -106,16 +106,6 @@ h1 {
     margin-bottom:1.25%;
 }
 
-hr{
-    height: 4px;
-    background-color: black;
-    border-color: black;
-    text-shadow: none;
-    top:65%;
-    width:85%;
-    z-index:-1;
-}
-
 .rectangle1 {
     background-color: #acd5d0;
     width: 100cm;
@@ -211,7 +201,7 @@ footer {
 .command_images1{
     position:absolute;
     top:49%;
-    left:-23.5%;
+    left:5%;
     margin-right:0%;
     margin-left:0%;
 }
@@ -219,7 +209,7 @@ footer {
 .mod_images1{
     position:absolute;
     top:49%;
-    left:-23.5%;
+    left:5%;
     margin-right:0%;
     margin-left:0%;
 }
@@ -227,7 +217,7 @@ footer {
 .mod_images2{
     position:absolute;
     top:65%;
-    left:-23.5%;
+    left:5%;
     margin-right:0%;
     margin-left:0%;
 }

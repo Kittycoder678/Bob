@@ -89,6 +89,17 @@
     margin-bottom:0%;
 }
 
+.title-text6{    
+    color: rgb(0, 0, 0);
+    font-family: "quiroh", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:150%;
+    text-align:center;
+    margin-top:0%;
+    margin-bottom:0%;
+}
+
 .body-text1{
     position:absolute;
     margin-left:42.5%;
@@ -307,8 +318,24 @@ footer {
 
 .mod_images2{
     position:absolute;
-    top:18cm;
+    top:16.5cm;
+    right:5%;
+    margin-right:0%;
+    margin-left:0%;
+}
+
+.mod_images3{
+    position:absolute;
+    top:25cm;
     left:5%;
+    margin-right:0%;
+    margin-left:0%;
+}
+
+.mod_images4{
+    position:absolute;
+    top:33.5cm;
+    right:5%;
     margin-right:0%;
     margin-left:0%;
 }
